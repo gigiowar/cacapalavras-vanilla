@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Ropa+Sans|Aldrich' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<h1>Caça-Palavras</h1>
+		<section class="game-config">
+			<form id="gameConfigForm">
+				<input class="input-text" type="text" placeholder="Digite as palavras que você quer no jogo" />
+				<button class="btn">Criar Jogo</button>
+			</form>			
+		</section>
+		<section class="game-play">
+			<table id="game-table" class="table-word">
+				<tbody>
+				</tbody>
+			</table>
+		</section>
+		<section class="game-results">
+			<div id="foundedWords" data-words="">
+				<label>Palavras encontradas:</label>
+			</div>
+		</section>
+		<section class="game-over">
+			
+		</section>
+	</body>
+	<script type="text/javascript" src="js/game.js"></script>
+</html>
