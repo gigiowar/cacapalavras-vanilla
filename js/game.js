@@ -257,7 +257,7 @@ var dragAndDropModule = (function(){
 		var wordList = form.getElementsByTagName("input")[0].value;
 		var arrWords = wordList.split(" ");	
 		var word = "";
-		var div = document.getElementById('foundedWords');
+		var div = document.getElementById("foundedWords");
 		var foundedWords = div.getAttribute("data-words");
 
 		for(var j = 0;j<boxList.length;j ++){
