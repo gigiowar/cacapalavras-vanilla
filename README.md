@@ -7,11 +7,4 @@ Caça Palavras feito com js puro (VanillaJS), seguem as instruções:
 - Divirta-se
 
 Por Giovanni A. Neto
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
     
