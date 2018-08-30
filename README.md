@@ -7,3 +7,6 @@ Caça Palavras feito com js puro (VanillaJS), seguem as instruções:
 - Divirta-se
 
 Por Giovanni A. Neto
+
+    alert('teste');
+    
